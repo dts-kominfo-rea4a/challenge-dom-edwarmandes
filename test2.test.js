@@ -34,6 +34,6 @@ describe("Checking the JS Function", () => {
     fireEvent.keyPress(input, { key: "Enter", code: 13, charCode: 13 });
 
     let todo = document.querySelectorAll("#todo-output li");
-    expect(todo.length).toBe();
+    expect(todo.length).toBe(2);
   });
 });
